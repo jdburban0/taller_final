@@ -464,25 +464,7 @@ curl -H "Authorization: Bearer $TOKEN" \
 
 ---
 
-## 📸 Capturas de Pantalla
-
-*(Aquí puedes añadir capturas de pantalla de tu aplicación funcionando)*
-
-### Login
-![Login](docs/screenshots/login.png)
-
-### Vista Principal
-![Dashboard](docs/screenshots/dashboard.png)
-
-### Resultado BFS
-![BFS](docs/screenshots/bfs.png)
-
-### Resultado Dijkstra
-![Dijkstra](docs/screenshots/dijkstra.png)
-
----
-
-## 🤔 Decisiones Técnicas
+## Decisiones Técnicas
 
 ### Backend
 
@@ -523,67 +505,16 @@ curl -H "Authorization: Bearer $TOKEN" \
 
 ---
 
-## ⚠️ Limitaciones y Mejoras Futuras
 
-### Limitaciones Actuales
-
-1. **Seguridad:**
-   - JWT en localStorage (vulnerable a XSS)
-   - Sin refresh tokens
-   - Sin rate limiting en endpoints
-
-2. **Funcionalidad:**
-   - Sin visualización gráfica del grafo
-   - Sin paginación en listados
-   - Sin búsqueda/filtrado de nodos
-   - Sin edición de nodos/aristas existentes
-   - BFS/Dijkstra sin visualización paso a paso
-
-3. **Performance:**
-   - Carga completa del grafo en memoria en cada request
-   - Sin caché de resultados de algoritmos
-   - Sin optimización de queries SQL
-
-4. **Testing:**
-   - Sin tests unitarios
-   - Sin tests de integración
-   - Sin CI/CD
-
-### Mejoras Propuestas
-
-#### Corto plazo (1-2 semanas)
-- [ ] Visualización del grafo con D3.js o Cytoscape.js
-- [ ] Export de resultados a JSON/CSV
-- [ ] Edición de nodos y aristas
-- [ ] Búsqueda y filtrado
-
-#### Mediano plazo (1 mes)
-- [ ] Tests con pytest (backend) y Vitest (frontend)
-- [ ] Refresh tokens para sesiones largas
-- [ ] Paginación en endpoints GET
-- [ ] Historial de búsquedas por usuario
-- [ ] Tema oscuro/claro
-
-#### Largo plazo (2-3 meses)
-- [ ] Algoritmos adicionales (A*, Bellman-Ford, Floyd-Warshall)
-- [ ] Grafos múltiples por usuario
-- [ ] Colaboración en tiempo real
-- [ ] Importar/exportar grafos desde archivos
-- [ ] Deploy en producción (Docker + Railway/Render)
-- [ ] Migración a PostgreSQL
-- [ ] Admin panel
-- [ ] Websockets para actualizaciones en tiempo real
-
----
 
 ## 🎓 Créditos
 
 **Proyecto académico desarrollado por:**
-- **Nombre:** [Tu Nombre Aquí]
-- **Institución:** [Tu Universidad]
-- **Curso:** [Nombre del Curso]
-- **Profesor:** [Nombre del Profesor]
-- **Fecha:** Noviembre 2025
+- **Nombre:** Juan David Burbano, Cristian Fabián Muñoz
+- **Institución:** UAO
+- **Curso:** Estructura de datos y algoritmos 2
+- **Profesor:** Jack Daniels
+- **Fecha:** Noviembre 4 2025
 
 ### Dataset
 - Ciudades colombianas con distancias aproximadas
