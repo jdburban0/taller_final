@@ -1,0 +1,26 @@
+src_name,dst_name,weight
+Bogotá,Medellín,415.5
+Bogotá,Cali,461.2
+Bogotá,Barranquilla,998.3
+Bogotá,Bucaramanga,398.7
+Bogotá,Villavicencio,117.8
+Bogotá,Ibagué,203.4
+Medellín,Cali,424.0
+Medellín,Manizales,190.5
+Medellín,Pereira,215.3
+Medellín,Cartagena,638.9
+Cali,Pereira,217.8
+Cali,Buenaventura,123.5
+Cali,Pasto,390.2
+Barranquilla,Cartagena,106.4
+Barranquilla,Santa Marta,93.2
+Bucaramanga,Cúcuta,195.8
+Bucaramanga,Medellín,392.1
+Pereira,Armenia,39.7
+Pereira,Manizales,57.3
+Manizales,Armenia,82.1
+Ibagué,Neiva,205.6
+Ibagué,Armenia,104.7
+Neiva,Pasto,486.3
+Villavicencio,Neiva,312.4
+Armenia,Cali,185.9
